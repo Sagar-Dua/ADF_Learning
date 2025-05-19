@@ -1,0 +1,38 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "smallint",
+				"precision": 5
+			},
+			{
+				"name": "first_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "last_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "email",
+				"type": "nvarchar"
+			},
+			{
+				"name": "gender",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "MOCK_DATA2"
+		}
+	}
+}

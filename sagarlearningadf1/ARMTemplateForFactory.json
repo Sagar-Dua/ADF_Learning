@@ -318,7 +318,14 @@
 						"startTime": "2025-05-19T16:40:00",
 						"endTime": "2025-05-20T10:57:00",
 						"timeZone": "India Standard Time",
-						"schedule": {}
+						"schedule": {
+							"minutes": [
+								40
+							],
+							"hours": [
+								16
+							]
+						}
 					}
 				}
 			},

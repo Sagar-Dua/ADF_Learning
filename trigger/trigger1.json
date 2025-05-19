@@ -1,0 +1,26 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"description": "trigger testing ",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2025-05-19T16:40:00",
+				"endTime": "2025-05-20T10:57:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
